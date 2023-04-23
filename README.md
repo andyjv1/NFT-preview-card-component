@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/andyjv1/Product-preview-card-component.git)
-- Live Site URL: [Live](https://andyjv1.github.io/Product-preview-card-component/)
+- Solution URL: [Solution](https://github.com/andyjv1/NFT-preview-card-component.git)
+- Live Site URL: [Live](https://andyjv1.github.io/NFT-preview-card-component/)
 
 ## My process
 
