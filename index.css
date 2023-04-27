@@ -10,36 +10,25 @@ body {
 
 /* Sub Format */
 
-.container2 {
-  background-color: hsl(217, 54%, 11%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 26.6rem;
-  height: 37.5rem;
-  padding: 2.5rem 0 2.5rem 0;
-  border-radius: 5%;
-}
-
 .container1 {
   background-color: hsl(216, 50%, 16%);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  width: 23.5rem;
-  height: 34.4rem;
-  padding: 2.5rem 0 2rem 0;
+width: 21.88rem;
+  /* padding: 2.5rem 0 2rem 0; */
   flex-direction: column;
   border-radius: 3%;
 }
 
 .imageSection img {
-  width: 19.7rem;
-  height: 19.7rem;
+  /* width: 19.7rem;
+  height: 19.7rem; */
   border-radius: 2.5%;
 }
 
 .imageSection {
+      padding: 1.5rem 1.5rem 0.1rem 1.5rem;
   position: relative;
 }
 
@@ -80,7 +69,7 @@ body {
 .nbrofDays {
   display: flex;
   justify-content: space-between;
-  font-size: 1.15rem;
+    font-size: 1rem;
   padding: 0;
 }
 
@@ -114,8 +103,8 @@ hr {
 }
 
 .creation img {
-  width: 1.88rem;
-  height: 1.88rem;
+  width: 1.94rem;
+  height: 1.94rem;
   border-radius: 100%;
   border: 1px solid white;
 }
@@ -137,6 +126,9 @@ a {
 
 h1 {
   color: white;
+      font-size: 1.4rem;
+  font-weight: 500;
+  margin: 1.3rem 0;
 }
 
 .nbrofDays h3 {
@@ -169,18 +161,18 @@ a {
 }
 
 .textSection {
-  padding: 0 calc((100% - 19.7rem)/2);
+    padding: 0 1.5rem;
 }
 
 .creation {
-  padding: 0% 0 0% 0;
+    padding: 0% 0 1.09rem 0;
   font-size: .625rem;
 }
 
 .creationText {
   align-self: center;
-  padding-left: 3%;
-  font-size: 1.15rem;
+    padding-left: 5%;
+    font-size: 1rem;
 }
 
 .daysLeft {
@@ -189,6 +181,8 @@ a {
 
 .text {
   font-size: .62rem;
+      padding-bottom: 0.7rem;
+
 }
 
 .text h2 {
@@ -196,21 +190,10 @@ a {
   margin: 0px
 }
 
-h1 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 1.3rem 0;
-}
-
 @media (max-width: 435px) {
   .container1 {
-    height: 28.4rem;
-    width: 20.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .container2 {
-    padding: 0;
+    /* height: 28.4rem; */
+    width: 20.44rem;
   }
 
   .nbrofDays {
@@ -218,14 +201,12 @@ h1 {
 
   }
 
-  .imageSection img {
-    padding-top: 1rem;
-    width: 17.7rem;
-    height: 17.7rem;
+  .imageSection  {
+padding: 1.53rem 1.53rem 0.5rem 1.53rem;
   }
 
   .textSection {
-    padding: 0 calc((100% - 17.7rem)/2);
+    padding: 0 1.53rem;
   }
 
   .text {
@@ -233,12 +214,13 @@ h1 {
   }
 
   .text h2 {
-    font-size: 1rem;
-    line-height: 1.5rem;
+font-size: 1.1rem;
+    padding-right: 1rem;
+        line-height: 1.5rem;
   }
 
   h1 {
-    margin: 1rem 0;
+    margin: 1rem 0 0.7rem 0;
     font-size: 1.38rem;
   }
 
